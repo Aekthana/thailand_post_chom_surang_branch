@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;     
+  box-sizing: border-box;
+}
+.news{
+    margin-top: 0px;
+    width: 100%;
+    height: 600px;
+    background-color: #EE2B47;  
+}
+.news h1{
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 54px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.0015em;
+  }
+.content-news{
+    width:393px;
+  }
+.content-news h3{
+  
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.0015em;
+}
+.content-news p{
+  font-family: Sarabun;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.0015em;
+}
+.content-news a{
+  font-family: Sarabun;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.0015em;
+
+  color: #FFFFFF;
+}
+
+.article h1{
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 54px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.0015em;
+}
+.article a{
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.0015em;
+  color: #EE2B47;
+}
+
+.article-content{
+  background-color: #FFFFFF;
+  width: 95%;
+  height: 510px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  scrollbar-color: #EE2B47 rgba(44, 46, 62, 0.14);
+  scrollbar-width: thin;
+}
+
+.article-content p{
+  font-family: Sarabun;
+}
+.article-content::-webkit-scrollbar {
+  width: 8px;
+  background-color: rgba(44, 46, 62, 0.14); /* or add it to the track */
+}
+.article-content::-webkit-scrollbar-thumb {
+  background: #EE2B47;
+} 
+
+
+
